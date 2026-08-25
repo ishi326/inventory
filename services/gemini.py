@@ -1,3 +1,8 @@
+"""
+GEMINI implementation for extracting inventory from photos of handwritten or printed inventory count sheets.
+Returns a JSON array of objects with the shape: [{"sku": "<one of the valid SKU names>", "quantity": <integer>}].
+"""
+
 import os
 import json
 import base64
